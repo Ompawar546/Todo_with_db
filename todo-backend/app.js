@@ -6,7 +6,7 @@ const app = express();
 
 app.use(express.json()); // convert req body into json
 app.use(cors({
-    origin: ['http://localhost:3001', 'https://your-frontend-app-name.onrender.com'],
+    origin: ['http://localhost:3001', 'https://todo-with-db-hfgm.onrender.com'],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
   }));
